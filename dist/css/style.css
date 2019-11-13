@@ -1315,8 +1315,8 @@ label {
 
 .hero {
     position: relative;
-    padding-top: 128px;
-    padding-bottom: 88px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     z-index: 0
 }
 
@@ -1375,7 +1375,7 @@ background: linear-gradient(128deg, rgba(255,105,150,1) 0%, rgba(9,9,121,1) 100%
 @media (min-width: 641px) {
     .hero {
         padding-top: 160px;
-        padding-bottom: 128px
+        padding-bottom:10px
     }
 
     .hero::before,
@@ -1619,7 +1619,9 @@ background: linear-gradient(128deg, rgba(255,105,150,1) 0%, rgba(9,9,121,1) 100%
 }
 
 .feature-extended {
-    padding: 24px 0
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .feature-extended-image {
@@ -1643,6 +1645,9 @@ background: linear-gradient(128deg, rgba(255,105,150,1) 0%, rgba(9,9,121,1) 100%
 
 
 @media (min-width: 641px) {
+    .feature-extended {
+        flex-direction: row
+    }
     .hero-title {
         font-size: 60px;
     }

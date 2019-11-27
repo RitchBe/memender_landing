@@ -1444,7 +1444,8 @@ background: linear-gradient(128deg, rgba(255,105,150,1) 0%, rgba(9,9,121,1) 100%
     -webkit-animation: heroContent 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards 0.3s;
     animation: heroContent 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards 0.3s;
     font-family: "Lato";
-    color: rgba(255,255,255, 0.8)
+    color: rgba(255,255,255, 0.9);
+    
 }
 
 .has-animations.is-loaded .hero-cta {
@@ -1686,7 +1687,7 @@ background: linear-gradient(128deg, rgba(255,105,150,1) 0%, rgba(9,9,121,1) 100%
         flex-wrap: nowrap;
         align-items: stretch;
         justify-content: flex-end;
-        padding: 64px 0
+        padding: 0px 0
     }
 
     .feature-extended .feature-extended-image {
